@@ -3,6 +3,7 @@ package week1;
 import java.io.*;
 
 public class InsertionSort {
+
     static void swap(int[] A, int i, int j) {
         int t = A[i];
         A[i] = A[j];
